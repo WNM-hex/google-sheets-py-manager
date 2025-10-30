@@ -19,17 +19,16 @@ venv + main.py + .JSON
 
 (voce deve possuir o nome da planilha do qual voce compartinhou com a conta de serviço que esta no .json)
 
-# requerimentos:
--
-nodeJS (last LTS build)
-projetoe conta no google cloud (https://console.cloud.google.com)
--------------------------------------------------------------------------------------------------
--
-to make your .JSON: IAM & adminn => service accounts => create service account.
+# Dependencies:
+
+- nodeJS (last LTS build)
+- projetoe conta no google cloud (https://console.cloud.google.com)
+
+- to make your .JSON: IAM & adminn => service accounts => create service account.
                     service accounts => ... (options) => manage keys => create new key => .json
--------------------------------------------------------------------------------------------------
-APIS: google cloud: APIs & Services
--Google Docs API					
--Google Drive API					
--Google Sheets API
-(other dependencies may apear in errors, just pip install them)
+
+- APIS: google cloud: APIs & Services
+- Google Docs API					
+- Google Drive API					
+- Google Sheets API
+- (other dependencies may apear in errors, just pip install them)
